@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-spell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.word-spell {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  width: 100%;
+  gap: 10px;
+  background-color: antiquewhite;
+}
+
+.word-spell > div {
+  border: 5px solid gray;
+}
